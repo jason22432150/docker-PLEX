@@ -3,6 +3,8 @@ Use docker-compose create
 
 ``` sh
 git clone https://github.com/jason22432150/docker-PLEX.git
+mv docker-PLEX/ PLEX/
+cd PLEX
 docker-compose up -d
 ```
 
