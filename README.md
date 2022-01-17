@@ -14,9 +14,6 @@ version: "2.1"
 services:
   plex:
     image: lscr.io/linuxserver/plex
-    # set the port 32400 here  (host_port:continer_port)
-    ports:
-       - "8765:32400"
     container_name: plex
     network_mode: host
     environment:
@@ -30,3 +27,6 @@ services:
       - /path/to/movies:/movies
     restart: unless-stopped
 ```
+
+Then you can go 
+http://[yourIP]:32400/web
