@@ -14,6 +14,7 @@ version: "2.1"
 services:
   plex:
     image: lscr.io/linuxserver/plex
+    # set the port 32400 here
     ports:
        - "8765:32400"
     container_name: plex
