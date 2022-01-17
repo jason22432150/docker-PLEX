@@ -13,9 +13,9 @@ This is docker-comporse.yml
 version: "2.1"
 services:
   plex:
+    image: lscr.io/linuxserver/plex
     ports:
        - "8765:32400"
-    image: lscr.io/linuxserver/plex
     container_name: plex
     network_mode: host
     environment:
