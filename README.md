@@ -25,7 +25,7 @@ services:
       - /path/to/library:/config
       - /path/to/tvseries:/tv
       - /path/to/movies:/movies
-      - /mnt:/usb
+      - /mnt:/mnt
     restart: unless-stopped
 ```
 
