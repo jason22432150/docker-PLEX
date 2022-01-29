@@ -12,6 +12,7 @@ services:
       - VERSION=docker
       - PLEX_CLAIM= #optional
     volumes:
+      - /mnt:/mnt
       - /path/to/library:/config
       - /path/to/tvseries:/tv
       - /path/to/movies:/movies
